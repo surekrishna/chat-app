@@ -8,7 +8,7 @@ router.get('/all', (req, res) => {
 		res.send(result.rows);
 		})
 	}catch(err) {
-		throw err;
+		throw err;ll
 	}
 });
 
